@@ -12,6 +12,16 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.4.0
+
+Level-2 Clicker update: an evolving local heatmap prioritizes focused searches by source app, orientation, ad phase and control role. Confirmed actions and verified teaching strengthen locations; no-effect outcomes and age weaken them. Misses trigger broad fallback, and periodic exploration still looks for new locations. Priors survive restarts and updates and never authorize clicks on their own.
+
+Fix Vungle/Liftoff and known native close context, preserve the actual host across ad popups and teaching, mask the overlay for OCR, and identify a demonstrated target by its original window and area. Keep evidence of brief host returns before the next ad. Uncertain old examples are not enabled automatically.
+
+Verify each dispatched action separately. A fresh unchanged target can receive bounded 45/90/140 ms gesture retries, including fallback after an accepted native click has no observed effect. Remember successful gesture duration locally and expand diagnostic action/coordinate/timing details. Rule cards reserve a smaller area around the Enabled switch for easier tab swipes.
+
+Studio stays at 0.1.1. Existing rules, settings and pairing are preserved. Host tests and recorded-frame checks verify the code paths; actual gestures, latency, ad cycles and rewards need testing on a phone. Language expansion and cloud reporting remain planned separately.
+
 ## 0.3.0
 
 Level-2 Clicker update: persistent tap teaching with manual finish, fresh pre-touch snapshots and observed outcomes. Learned actions are separate from your own rules, can be reviewed/disabled and have previous-version recovery. Context-aware ad launch learning handles changing counts in button text and verifies that an ad actually starts.
