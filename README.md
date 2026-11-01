@@ -12,6 +12,16 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.3.0
+
+Level-2 Clicker update: persistent tap teaching with manual finish, fresh pre-touch snapshots and observed outcomes. Learned actions are separate from your own rules, can be reviewed/disabled and have previous-version recovery. Context-aware ad launch learning handles changing counts in button text and verifies that an ad actually starts.
+
+Marked problems are analyzed locally using retained events and image replay. Evidence can adjust inspection timing or suppress repeatedly unconfirmed built-in targets in a matching ad context. Uncertain discoveries need review or a demonstration; this is bounded local learning, not a general self-programming model.
+
+Rule cards are compact, have inline yellow/gray Enabled switches and a left drag handle with animated reordering. Saved order determines priority among eligible own rules. Edits, toggles, usage and rule export/import preserve order. The Home indicator is drawn on the first layout without a swipe.
+
+Studio remains at 0.1.1 and is optional. Existing rules/settings/pairing remain available. Android touch delegation, speed, full ad cycles and rewards require testing on a real device.
+
 ## 0.2.0
 
 Level-2 Clicker update: continuous ad-scene tracking, action outcome verification and bounded local action history. Recognized ad activities retain their context until a real return to the host app. Popup return limits reset per visit. Timer bars and generic contrast-based close/skip symbols reduce reliance on saved samples; an optional single reveal touch can expose hidden controls in a recognized ad canvas.
