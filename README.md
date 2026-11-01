@@ -12,6 +12,14 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.2.0
+
+Level-2 Clicker update: continuous ad-scene tracking, action outcome verification and bounded local action history. Recognized ad activities retain their context until a real return to the host app. Popup return limits reset per visit. Timer bars and generic contrast-based close/skip symbols reduce reliance on saved samples; an optional single reveal touch can expose hidden controls in a recognized ad canvas.
+
+Animated yellow tabs, preserved rule viewport, selection magnifier and opposite-corner rectangles, aligned category picker, persistent accessibility settings links, uninterrupted problem marking with REC countdown, and local diagnostic storage management. Rules, pairing and protected/in-use reports are preserved during cleanup.
+
+Diagnostic Studio stays at 0.1.1 and does not need an update. Report/rule formats are compatible. Host tests and saved-frame recognition checks passed; the new UI, touch behavior, timing and complete ad cycles still need testing on a phone.
+
 ## 0.1.1
 
 Level-3 update: swipe between main tabs, live accessibility connection checks, screenshot pacing and retry, contextual Ignore rules, and a separate category picker. ADVERTISEMENT starts a rapid comparison of newly appearing edge controls, including recognized crosses drawn inside WebViews. Anonymous small icons use a narrower side gutter to reduce false taps inside ad artwork. Pairing with the optional Studio uses its QR directly inside Clicker, without typing an address or PIN.
