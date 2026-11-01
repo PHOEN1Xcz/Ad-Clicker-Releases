@@ -12,6 +12,14 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.4.1
+
+Level-3 functional fix: verify Back outcomes inside known ad popups so closing a game-detail sheet can be followed by another Back from Google Play to the original ad. Unchanged popup actions time out and the visit has a bounded attempt limit. Preserve the known host through rule editing and the floating app window; explicit Stop still ends the session.
+
+Rule choices are Click / Back and Ad control / App control / Ignore object, with contextual descriptions. Only in: shows the source app; mandatory scope is checked and locked for App control and Ignore object. Existing rule IDs, images and order remain intact.
+
+Teaching distinguishes store navigation from ad closure. Native popup screenshots and Back-state events support marked-problem analysis without extra OCR in that capture path. Studio remains at 0.1.1. Actual Android gestures and complete ad cycles still need testing on a phone.
+
 ## 0.4.0
 
 Level-2 Clicker update: an evolving local heatmap prioritizes focused searches by source app, orientation, ad phase and control role. Confirmed actions and verified teaching strengthen locations; no-effect outcomes and age weaken them. Misses trigger broad fallback, and periodic exploration still looks for new locations. Priors survive restarts and updates and never authorize clicks on their own.
