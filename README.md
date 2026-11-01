@@ -12,6 +12,12 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.1.0
+
+Level-2 update: fixes Play after Live test, maps selection/live overlays to original screen coordinates, and adds automatic initial similarity with a configurable margin. Uses generic SDK control IDs and native-bound icon geometry, stops extra swipes at the end of scrolling ads, and avoids semantic taps on non-actionable text. OCR now focuses on the top/bottom screen regions. Repeated unresponsive targets receive a temporary cooldown while scanning continues.
+
+Clicker and optional Windows Diagnostic Studio have independent versions, packages and release tags. Clicker-only updates do not require a new Studio download; existing Studio 0.0.3 remains format-compatible.
+
 ## 0.0.3
 
 Adds accessibility/OCR/shape/pattern recognition, prioritized full-screen search, session-aware recovery across ad popups, scroll-to-close handling, Start next ads rules, free overlay positioning, quick categories and live similarity tuning. Optional detailed diagnostic recordings can be exported or sent to a paired Studio over a local network. Clicker works independently of Studio.
