@@ -12,6 +12,12 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.5.0
+
+Level-2 update: preserve the uncommitted rule name, category, action, purpose and similarity when adjusting a selection; show the selection edges inside the magnifier. Track small numeric countdowns with multiple plausible decreases over time. Optional adaptive checks reduce screenshot/OCR frequency during longer confirmed waits, with faster checks near the end and periodic wider exploration. Battery savings require measurement on a phone.
+
+Optional direct Dropbox ZIP uploads to /AdClicker_data use PKCE sign-in, resumable chunks and verified size/content hashes. Signed diagnosis requests are published after upload confirmation. Independent Studio 0.2.0 receives requests for a configured local Codex monitor and returns signed results. Register your own Dropbox app and connect the account before use; the release contains no account credentials. Scanning, teaching and local reports remain independent of PC and cloud. Actual account uploads and Android 16 operation require user verification after setup.
+
 ## 0.4.1
 
 Level-3 functional fix: verify Back outcomes inside known ad popups so closing a game-detail sheet can be followed by another Back from Google Play to the original ad. Unchanged popup actions time out and the visit has a bounded attempt limit. Preserve the known host through rule editing and the floating app window; explicit Stop still ends the session.
