@@ -12,6 +12,16 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.6.0
+
+Level-2 update: compact buttons and tabs with unchanged text sizes, narrow switch hit areas, Home with optional pinned/recent source apps, Auto-continue and a live accessibility repair shortcut. Recent usage uses optional Usage Access or observed apps; it is not the private system Recents task list. Observe only is removed; Live test remains read-only.
+
+Logs now separates compact Events from Reports with selection, deletion and retention. Reports unifies connections, history, transfer status and signed diagnosis results. Incremental immutable batches support selecting multiple previous reports, destination-specific delivery receipts and deduplicated attachments in standalone version-3 ZIPs. An uploaded ZIP can be reused for a new diagnosis request. Managed cloud cleanup protects waiting/active requests and Keep items and verifies signatures and checksums.
+
+Independent Studio 0.3.0 supports report formats 1/2/3 and an optional one-shot read-only Codex CLI worker triggered by a valid new request. Empty queues make no model calls; the old timed chat monitor is not enabled. Studio and cloud remain optional for Clicker operation. Existing rules, learning, heatmap, order and pairing are retained. Update Studio before sending format-3 reports over LAN.
+
+272 core checks, 49 Android host tests, 50 Python tests and packaged Studio checks passed. A repeated unchanged export of the test dataset fell from 115.5 MB to 5.8 MB; this does not predict the size of new recordings. Android 16/HyperOS behavior, live gestures, account transfers and battery use still require phone testing.
+
 ## 0.5.0
 
 Level-2 update: preserve the uncommitted rule name, category, action, purpose and similarity when adjusting a selection; show the selection edges inside the magnifier. Track small numeric countdowns with multiple plausible decreases over time. Optional adaptive checks reduce screenshot/OCR frequency during longer confirmed waits, with faster checks near the end and periodic wider exploration. Battery savings require measurement on a phone.
