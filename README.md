@@ -12,6 +12,14 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.6.2
+
+Level-3 Clicker update. One confirmed progress source controls waiting, with fallback after loss/stagnation; ad ordinals are excluded, edge bars survive color transitions, and small counter arcs have temporal validation. Available Skip/store steps remain usable during a video countdown while premature Close stays protected.
+
+App-window screenshots exclude our accessibility overlays. The shorter panel stays visible with 75% background opacity, temporarily 50% while passing a gesture through; completion, cancellation and a watchdog restore touch input. Reports use smaller context images and original-resolution control crops, with incremental historical learning evidence. Full diagnostics preserves retained originals. Report format 3 and Studio 0.3.0 remain compatible; no Studio update is needed.
+
+Install over the existing application to preserve rules, ordering, learning, heatmap, accounts and pairing. Host checks and saved-image replay do not replace live HyperOS/OCR/gesture or battery testing.
+
 ## 0.6.1
 
 Level-3 fix from recorded 0.6.0 diagnostics. An accepted action in the current host's active ad can authorize a short-lived return context for another app, such as Allegro. Actual touch cancels this correlation; the host is retained and Back remains bounded. Unknown destinations require touch monitoring. No automatic edits to the external app list.
