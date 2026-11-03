@@ -12,6 +12,16 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.6.1
+
+Level-3 fix from recorded 0.6.0 diagnostics. An accepted action in the current host's active ad can authorize a short-lived return context for another app, such as Allegro. Actual touch cancels this correlation; the host is retained and Back remains bounded. Unknown destinations require touch monitoring. No automatic edits to the external app list.
+
+Native, visual and rule actions now share countdown/reward protection. Explicit reward countdowns survive short reading gaps, and a contextual early-close warning can resume playback without repeating the destructive close. Progress bars are tracked in parallel so a static stripe cannot monopolize tracking above a moving bottom bar. Confirmed numeric clocks take precedence over approximate bar velocity. Small numeric OCR uses bounded enlarged probes.
+
+Diagnostic rectangles show candidate/tracked/lost/blocked controls, numeric values and progress estimates. Annotations are non-touchable, hidden before capture and retained as geometry/status metadata. Report format 3 and Studio 0.3.0 remain compatible; no Studio update is needed. Existing rules, learning, heatmap, ordering, account and pairing are retained.
+
+293 core checks, 54 Android host tests and 50 Python tests passed. Replay found the bottom bar reliably in 8/17 saved frames versus 0/17 previously, with unchanged top-bar coverage; 11 recorded premature close attempts were blocked and the final reward-ready close allowed. These are recorded-frame/host checks; live HyperOS gestures, OCR and battery use still require phone testing.
+
 ## 0.6.0
 
 Level-2 update: compact buttons and tabs with unchanged text sizes, narrow switch hit areas, Home with optional pinned/recent source apps, Auto-continue and a live accessibility repair shortcut. Recent usage uses optional Usage Access or observed apps; it is not the private system Recents task list. Observe only is removed; Live test remains read-only.
