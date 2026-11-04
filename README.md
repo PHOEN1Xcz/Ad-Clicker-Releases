@@ -12,6 +12,10 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.7.2
+
+Advanced / Diagnostics has individual switches for progress bars, numeric countdowns, timer rings, countdown scan throttling and heatmap search. Diagnostic reports record the settings and heatmap search results for comparison.
+
 ## 0.7.1
 
 Faster fallback to display capture, focused checks for visual controls and fixed 50 ms coordinate taps. The panel stays touchable. Progress bars are tracked without estimating seconds, and close detection checks for adjacent speaker icons. Report Admin groups attempts by report and adds an archive and consolidated connections. Handler 0.1.1 is a separate portable release in the private project repository.
