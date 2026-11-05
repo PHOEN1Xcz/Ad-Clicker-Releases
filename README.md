@@ -12,6 +12,12 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.7.4
+
+Level-3 Clicker update. New learned findings stay standalone. Hold a sample or group to open a fixed selection toolbar for deleting, verifying meanings or manually combining findings. Edit meanings and group membership in one form, rename groups, and choose groups with rotating sample previews. Existing multi-sample groups are preserved.
+
+Re-evaluate selected or all unverified findings against manually verified examples, including Ignore and contextual Back. A cancellable comparison shows reference images, similarity and reasons before applying clear matches as Auto confirmed. Ambiguous matches remain for review. This does not automatically create groups or grant user verification. Update downloads now show percentage, MB and the verification phase. These download indicators apply to updates initiated from 0.7.4 onward. Handler 0.1.1 and Studio 0.3.0 are unchanged.
+
 ## 0.7.3
 
 Review and combine learned findings into groups with individually managed image samples. User-verified samples are retained outside the automatic limit and pinned on the next visit. Review supports Ignore and contextual Back. Lists update affected rows while preserving the viewport. Teaching rejects empty crops and can use stable foreground across moving backgrounds. Visible system bars are masked, and confirmed app screens use manual app rules.
