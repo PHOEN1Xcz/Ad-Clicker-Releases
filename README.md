@@ -12,6 +12,12 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.7.5
+
+Level-3 Clicker fix for scroll-to-close ads and panel responsiveness. Native scroll instructions can start a dedicated scroll flow without waiting for the full OCR pass. Native accessibility reading and click/scroll requests run off the panel thread, and physical touch delegation uses a separate executor. Learned-rule screen context is prepared once per pass instead of repeatedly for each node.
+
+Scroll steps follow completion and fresh observations, resume after a missed header and stop at confirmed page completion even while the instruction remains visible. Scroll headers are evaluated separately from ad countdown bars. New timing events distinguish input delivery, native reads and delayed image results. Existing rules, learned findings, scan switches and the APK signing identity are retained. Handler 0.1.1 and Studio 0.3.0 are unchanged. Real-device timing and touch behavior still need verification on POCO/HyperOS.
+
 ## 0.7.4
 
 Level-3 Clicker update. New learned findings stay standalone. Hold a sample or group to open a fixed selection toolbar for deleting, verifying meanings or manually combining findings. Edit meanings and group membership in one form, rename groups, and choose groups with rotating sample previews. Existing multi-sample groups are preserved.
