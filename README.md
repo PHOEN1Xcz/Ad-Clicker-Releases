@@ -12,6 +12,10 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.7.3
+
+Review and combine learned findings into groups with individually managed image samples. User-verified samples are retained outside the automatic limit and pinned on the next visit. Review supports Ignore and contextual Back. Lists update affected rows while preserving the viewport. Teaching rejects empty crops and can use stable foreground across moving backgrounds. Visible system bars are masked, and confirmed app screens use manual app rules.
+
 ## 0.7.2
 
 Advanced / Diagnostics has individual switches for progress bars, numeric countdowns, timer rings, countdown scan throttling and heatmap search. Diagnostic reports record the settings and heatmap search results for comparison.
