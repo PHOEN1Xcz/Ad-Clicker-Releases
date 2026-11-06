@@ -12,6 +12,10 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.7.6
+
+Level-3 fix for rectangle selection. Hold the target while scanning is running or stopped. Clicker waits for the current window and screenshot and pauses automatic actions until the rule is saved or cancelled. Live test only shows the match. Press Play after leaving the editor to resume scanning.
+
 ## 0.7.5
 
 Level-3 Clicker fix for scroll-to-close ads and panel responsiveness. Native scroll instructions can start a dedicated scroll flow without waiting for the full OCR pass. Native accessibility reading and click/scroll requests run off the panel thread, and physical touch delegation uses a separate executor. Learned-rule screen context is prepared once per pass instead of repeatedly for each node.
