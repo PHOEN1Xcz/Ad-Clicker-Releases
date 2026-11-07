@@ -16,7 +16,7 @@ Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source
 
 Rules combines independently scrolling manual and learned libraries with shared search and filters. Backup/import transfers both libraries, thumbnails, groups, verification and priority in a standalone ZIP. Reports centralizes Off/Compact/Full recording, local storage and delivery, estimates selected input size and shows the final ZIP size before sending. Compact exports retain causal before/problem/after evidence with fewer repetitive frames. The Master administration tab is named Admin. Diagnostic Studio is unchanged; the independent Handler 0.2.0 adds a persistent Windows user profile and notification-area operation.
 
-Android versionCode 22; existing signing certificate. Validated by 346 core checks, 140 Android tests (one optional skip) and lint with no errors. Physical POCO/HyperOS behavior still requires device testing.
+Android versionCode 22; existing signing certificate. Validated by 346 core checks, 141 Android tests (one optional skip) and lint with no errors. Physical POCO/HyperOS behavior still requires device testing.
 
 ## 0.7.7
 
