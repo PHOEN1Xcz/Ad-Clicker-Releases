@@ -12,6 +12,10 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.7.7
+
+Level-3 fix for ads that open another app. **Return from apps opened by ads** covers a store, browser or installed game and keeps the original ad source through display changes. After Back, Clicker checks the ad again. An unproductive outbound control can be ignored in the same ad context to prevent repeated store openings. Home labels the app picker **Select ad source apps**.
+
 ## 0.7.6
 
 Level-3 fix for rectangle selection. Hold the target while scanning is running or stopped. Clicker waits for the current window and screenshot and pauses automatic actions until the rule is saved or cancelled. Live test only shows the match. Press Play after leaving the editor to resume scanning.
