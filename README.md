@@ -12,6 +12,12 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.8.0
+
+Rules combines independently scrolling manual and learned libraries with shared search and filters. Backup/import transfers both libraries, thumbnails, groups, verification and priority in a standalone ZIP. Reports centralizes Off/Compact/Full recording, local storage and delivery, estimates selected input size and shows the final ZIP size before sending. Compact exports retain causal before/problem/after evidence with fewer repetitive frames. The Master administration tab is named Admin. Diagnostic Studio is unchanged; the independent Handler 0.2.0 adds a persistent Windows user profile and notification-area operation.
+
+Android versionCode 22; existing signing certificate. Validated by 346 core checks, 140 Android tests (one optional skip) and lint with no errors. Physical POCO/HyperOS behavior still requires device testing.
+
 ## 0.7.7
 
 Level-3 fix for ads that open another app. **Return from apps opened by ads** covers a store, browser or installed game and keeps the original ad source through display changes. After Back, Clicker checks the ad again. An unproductive outbound control can be ignored in the same ad context to prevent repeated store openings. Home labels the app picker **Select ad source apps**.
