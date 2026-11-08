@@ -12,6 +12,10 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.9.0
+
+Guide adds concise offline help. The language selector beside the app name switches the interface between Czech, English, German, French and Spanish while preserving open forms, list position and scanning. Ad-text recognition supports common controls, scroll hints, timers and reward prompts in these languages independently of UI language. User names and raw diagnostic evidence are preserved. Handler 0.2.0 and Studio 0.3.0 are unchanged. Android versionCode 23, existing signing certificate; real-device testing is still required.
+
 ## 0.8.0
 
 Rules combines independently scrolling manual and learned libraries with shared search and filters. Backup/import transfers both libraries, thumbnails, groups, verification and priority in a standalone ZIP. Reports centralizes Off/Compact/Full recording, local storage and delivery, estimates selected input size and shows the final ZIP size before sending. Compact exports retain causal before/problem/after evidence with fewer repetitive frames. The Master administration tab is named Admin. Diagnostic Studio is unchanged; the independent Handler 0.2.0 adds a persistent Windows user profile and notification-area operation.
