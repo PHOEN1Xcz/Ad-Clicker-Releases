@@ -12,6 +12,10 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.9.1
+
+Tap the panel handle to collapse or expand; drag to move it. Start/Stop remains visible in the collapsed panel. Start keeps it collapsed; stopping an active or recovering scan expands it. Collapse taps preserve the scan state, while actual drags retain user-touch handling. Selection and rule processing still prevent collapse. The five-language help is updated. Includes the 0.9.0 hotfix. Android versionCode 25, existing signing certificate; Handler 0.2.0 and Studio 0.3.0 are unchanged.
+
 ## 0.9.0
 
 Hotfix build 24 replaces the original build 23 under this release. It fixes single-line tab layout and highlight alignment, horizontal swiping across card content and immediate language updates on the open page. The displayed version stays 0.9.0; the higher Android versionCode allows an in-place update with the existing signing identity.
