@@ -14,7 +14,9 @@ Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source
 
 ## 0.9.0
 
-Guide adds concise offline help. The language selector beside the app name switches the interface between Czech, English, German, French and Spanish while preserving open forms, list position and scanning. Ad-text recognition supports common controls, scroll hints, timers and reward prompts in these languages independently of UI language. User names and raw diagnostic evidence are preserved. Handler 0.2.0 and Studio 0.3.0 are unchanged. Android versionCode 23, existing signing certificate; real-device testing is still required.
+Hotfix build 24 replaces the original build 23 under this release. It fixes single-line tab layout and highlight alignment, horizontal swiping across card content and immediate language updates on the open page. The displayed version stays 0.9.0; the higher Android versionCode allows an in-place update with the existing signing identity.
+
+Guide adds concise offline help. The language selector beside the app name switches the interface between Czech, English, German, French and Spanish while preserving open forms, list position and scanning. Ad-text recognition supports common controls, scroll hints, timers and reward prompts in these languages independently of UI language. User names and raw diagnostic evidence are preserved. Handler 0.2.0 and Studio 0.3.0 are unchanged. Android versionCode 24, existing signing certificate; real-device testing is still required.
 
 ## 0.8.0
 
