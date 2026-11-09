@@ -12,6 +12,10 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.9.3
+
+Build 28 adds consistent button levels and explicit active filters in light/dark themes. Merging learned samples under Needs review offers Show group and explains the filter. Master Admin adds cloud usage, retention, target capacity, ZIP count and cleanup. ZIP deletion retains diagnosis history and optionally compact evidence; whole-report deletion is separate. New storage operations require independent Handler 0.2.1 and automatic cleanup starts disabled. Scanning, report format 3 and signing identity remain unchanged. Studio stays 0.3.0. Real phone/cloud workflows still need validation.
+
 ## 0.9.2
 
 Build 27 profiles available ad SDK components in selected source apps without reading their private runtime state. Generic ad actions require a confirmed current ad window; unknown transitions keep observing. Fresh OCR/native host evidence protects app controls and between-ad dialogs, ordinary text is rejected as close/skip glyphs, and recognized embedded ad regions limit click targets. Includes the 0.9.1 report-memory and panel fixes. Android versionCode 27, original signing identity. Handler and Studio are unchanged; phone validation is still required.
