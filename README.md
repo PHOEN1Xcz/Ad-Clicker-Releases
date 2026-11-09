@@ -14,7 +14,9 @@ Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source
 
 ## 0.9.1
 
-Tap the panel handle to collapse or expand; drag to move it. Start/Stop remains visible in the collapsed panel. Start keeps it collapsed; stopping an active or recovering scan expands it. Collapse taps preserve the scan state, while actual drags retain user-touch handling. Selection and rule processing still prevent collapse. The five-language help is updated. Includes the 0.9.0 hotfix. Android versionCode 25, existing signing certificate; Handler 0.2.0 and Studio 0.3.0 are unchanged.
+Hotfix build 26 replaces build 25 in this release. It reduces report preparation memory by streaming events/history/ZIP objects and using sampled contexts plus original-resolution image regions. Native episode/library content can confirm host return without an activity event, invalidate stale ad frames and restrict automation on the identified host screen to explicit manual START_ADS rules. Recordings and report format 3 remain intact; this is not a universal app/ad classifier. The original source state is retained as v0.9.1-build25. Android versionCode 26, existing signing identity.
+
+The original build 25 introduced tap-to-collapse and drag-to-move. Start/Stop remains visible in the collapsed panel. Start keeps it collapsed; stopping an active or recovering scan expands it. Collapse taps preserve the scan state, while actual drags retain user-touch handling. Selection and rule processing still prevent collapse. These controls and the 0.9.0 hotfix remain included. Handler 0.2.0 and Studio 0.3.0 are unchanged.
 
 ## 0.9.0
 
