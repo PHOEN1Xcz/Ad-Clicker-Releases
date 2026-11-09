@@ -12,6 +12,10 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.9.2
+
+Build 27 profiles available ad SDK components in selected source apps without reading their private runtime state. Generic ad actions require a confirmed current ad window; unknown transitions keep observing. Fresh OCR/native host evidence protects app controls and between-ad dialogs, ordinary text is rejected as close/skip glyphs, and recognized embedded ad regions limit click targets. Includes the 0.9.1 report-memory and panel fixes. Android versionCode 27, original signing identity. Handler and Studio are unchanged; phone validation is still required.
+
 ## 0.9.1
 
 Hotfix build 26 replaces build 25 in this release. It reduces report preparation memory by streaming events/history/ZIP objects and using sampled contexts plus original-resolution image regions. Native episode/library content can confirm host return without an activity event, invalidate stale ad frames and restrict automation on the identified host screen to explicit manual START_ADS rules. Recordings and report format 3 remain intact; this is not a universal app/ad classifier. The original source state is retained as v0.9.1-build25. Android versionCode 26, existing signing identity.
