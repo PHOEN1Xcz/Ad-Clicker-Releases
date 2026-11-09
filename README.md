@@ -12,6 +12,10 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.10.0
+
+Build 29 unifies session admission for source/ad windows and attached destinations. Manual help preserves ad-popup identity; explicit Play in Google Play resumes the selected source. Bounded reveal taps and high-confidence learned targets have shorter paths while host and reward protection remain. Confirmed actions update positions and examples; small rotating batches reconsider uncertain samples with protection for user review and Ignore conflicts. Teaching has immediate capture feedback, independent OCR/evidence queues and separate saved/review counts. Rules adds selective or complete clean-test reset while retaining settings, accounts and reports. Existing rule-library backups remain readable. Android versionCode 29, original signing identity. Handler 0.2.1 and Studio 0.3.0 are unchanged; physical phone validation remains necessary.
+
 ## 0.9.3
 
 Build 28 adds consistent button levels and explicit active filters in light/dark themes. Merging learned samples under Needs review offers Show group and explains the filter. Master Admin adds cloud usage, retention, target capacity, ZIP count and cleanup. ZIP deletion retains diagnosis history and optionally compact evidence; whole-report deletion is separate. New storage operations require independent Handler 0.2.1 and automatic cleanup starts disabled. Scanning, report format 3 and signing identity remain unchanged. Studio stays 0.3.0. Real phone/cloud workflows still need validation.
