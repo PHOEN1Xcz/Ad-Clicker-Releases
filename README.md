@@ -12,6 +12,10 @@ In-app updates: Settings → Check for updates. Version 0.0.2 uses Save and chec
 
 Assets: Ad-Clicker-<version>.apk, ad-clicker-update.json, SHA256SUMS.txt. Source code, diagnostic reports, pairing credentials and signing keys are not published here.
 
+## 0.11.0
+
+Build 30 simplifies Reports and removes Master verification and phone-initiated diagnosis requests. Existing Dropbox connections and upload destinations remain; a local rolling limit counts three distinct confirmed ZIP uploads per 24 hours, with idempotent retries. The phone displays report states; Handler 0.3.0 starts selected diagnoses and manages retention on the PC. Confirmed numeric countdowns retain identity through OCR gaps and predict remaining time. Progress tracking supports nonlinear, slow and changing-colour bars. Separate action, timer and progress contexts share the existing spatial memory without authorizing clicks. Original APK signer and report format 3 remain compatible. Studio stays 0.3.0. Host tests do not replace physical phone validation.
+
 ## 0.10.0
 
 Build 29 unifies session admission for source/ad windows and attached destinations. Manual help preserves ad-popup identity; explicit Play in Google Play resumes the selected source. Bounded reveal taps and high-confidence learned targets have shorter paths while host and reward protection remain. Confirmed actions update positions and examples; small rotating batches reconsider uncertain samples with protection for user review and Ignore conflicts. Teaching has immediate capture feedback, independent OCR/evidence queues and separate saved/review counts. Rules adds selective or complete clean-test reset while retaining settings, accounts and reports. Existing rule-library backups remain readable. Android versionCode 29, original signing identity. Handler 0.2.1 and Studio 0.3.0 are unchanged; physical phone validation remains necessary.
